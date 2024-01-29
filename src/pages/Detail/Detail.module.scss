@@ -1,0 +1,19 @@
+.wrap {
+    display: flex;
+}
+
+.img {
+    max-width: 400px;
+    margin-right: 30px;
+}
+
+.descr {
+    display: flex;
+    flex-direction: column;
+
+    a {
+        margin-top: auto;
+        text-align: end;
+        color: #6100fc;
+    }
+}

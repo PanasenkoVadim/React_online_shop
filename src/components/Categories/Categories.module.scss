@@ -1,0 +1,61 @@
+@import "../../assets/shared/scss/helpers/mixins";
+
+.categories {
+    overflow: hidden;
+    overflow-x: scroll;
+    width: 100%;
+    padding: 0 20px 20px;
+    margin-bottom: 10px;
+
+    @include breakpoint(sm) {
+        padding: 0 0 20px;
+    }
+
+    @include breakpoint(md) {
+        margin-right: 60px;
+        width: fit-content;
+        overflow: hidden;
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+
+
+
+    ul {
+        display: flex;
+
+        @include breakpoint(sm) {
+            justify-content: center;
+        }
+
+        @include breakpoint(md) {
+            justify-content: start;
+        }
+    }
+
+    li {
+        background-color: #fff;
+        min-width: 120px;
+        display: flex;
+        font-size: 14px;
+        line-height: 1;
+        align-items: center;
+        justify-content: center;
+        padding: 6px 10px;
+        border-radius: 30px;
+        transition: .05s linear;
+        transition-property: background-color, color;
+        user-select: none;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, .05);
+        cursor: pointer;
+
+        &.active {
+            background-color: #414141;
+            color: #fff;
+        }
+
+        &:not(:last-child) {
+            margin-right: 10px;
+        }
+    }
+}

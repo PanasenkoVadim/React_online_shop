@@ -1,0 +1,146 @@
+[
+  {
+    "id": 0,
+    "imageUrl": "https://cdnya.proimagescdn.ru/mainrek/photos/800x800/41573460255.jpg",
+    "name": "Some Text",
+    "price": 3999,
+    "category": 1,
+    "rating": 4,
+    "sizes": [41, 42, 43, 44, 45]
+  },
+  {
+    "id": 1,
+    "imageUrl": "https://ae04.alicdn.com/kf/H003bde73d7f0403b81ec7a0ffc718ad6X.jpg_640x640.jpg_.webp",
+    "name": "Some Text",
+    "price": 4999,
+    "category": 1,
+    "rating": 4,
+    "sizes": [41, 42, 43, 44, 45]
+  },
+  {
+    "id": 2,
+    "imageUrl": "https://ae04.alicdn.com/kf/S65f8af99877648c1be70e7b3c421e82cR.jpg_640x640.jpg",
+    "name": "Some Text",
+    "price": 5300,
+    "category": 1,
+    "rating": 5,
+    "sizes": [41, 42, 43, 44, 45]
+  },
+  {
+    "id": 3,
+    "imageUrl": "https://ae04.alicdn.com/kf/Sfc62dd03f0bc41ebba491dddf8501996p.jpg_640x640.jpg_.webp",
+    "name": "Some Text",
+    "price": 3000,
+    "category": 1,
+    "rating": 4,
+    "sizes": [41, 42, 43, 44, 45]
+  },
+  {
+    "id": 4,
+    "imageUrl": "https://ae01.alicdn.com/kf/H41f743bcf60e458693e7ac0f06abb77cT.jpg?width=714&height=644&hash=1358",
+    "name": "Some Text",
+    "price": 5000,
+    "category": 2,
+    "rating": 4,
+    "sizes": [36, 37, 38, 39, 40]
+  },
+  {
+    "id": 5,
+    "imageUrl": "https://static.insales-cdn.com/r/5xHOxIOd6VY/rs:fit:1000:0:1/q:100/plain/images/products/1/5681/588887601/A63E7D4D-51E0-46EF-AB8F-FD64A050EAA0.jpeg",
+    "name": "Some Text",
+    "price": 6000,
+    "category": 2,
+    "rating": 5,
+    "sizes": [36, 38]
+  },
+  {
+    "id": 6,
+    "imageUrl": "https://lafamily.ru/userfiles/shop/large/7988_rb-krossovki-detskie-tsvet--.jpg",
+    "name": "Some Text",
+    "price": 6000,
+    "category": 3,
+    "rating": 5,
+    "sizes": [22, 23, 24, 25, 28]
+  },
+  {
+    "id": 7,
+    "imageUrl": "https://img.joomcdn.net/099db461e24062bd5e1bf809929136b940e21ff8_original.jpeg",
+    "name": "Women Shoes1",
+    "price": 2400,
+    "category": 2,
+    "rating": 5,
+    "sizes": [36, 37, 38, 39, 40]
+  },
+  {
+    "id": 8,
+    "imageUrl": "https://images.meesho.com/images/products/224713294/stz9u_512.webp",
+    "name": "Women Shoes2",
+    "price": 5400,
+    "category": 2,
+    "rating": 5,
+    "sizes": [36, 37, 39, 40]
+  },
+  {
+    "id": 9,
+    "imageUrl": "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_600,h_600/global/395829/01/sv05/fnd/IND/fmt/png/Carina-Slim-Perf-Women's-Sneakers",
+    "name": "Puma Carina Slim",
+    "price": 6600,
+    "category": 2,
+    "rating": 5,
+    "sizes": [36, 37, 39, 40]
+  },
+  {
+    "id": 10,
+    "imageUrl": "https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1669140938-puma-womens-shoe-run-xx-nitro-1669140907.jpg?crop=1xw:0.8836789900811542xh;center,top&resize=980:*",
+    "name": "Puma Running",
+    "price": 5000,
+    "category": 2,
+    "rating": 5,
+    "sizes": [36, 37, 39, 40]
+  },
+  {
+    "id": 11,
+    "imageUrl": "https://ae04.alicdn.com/kf/S47284bd064624ef7b4bead6b62a88394t.jpg",
+    "name": "Kids Sneakers",
+    "price": 3000,
+    "category": 3,
+    "rating": 5,
+    "sizes": [22, 23, 24, 25, 28]
+  },
+  {
+    "id": 12,
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYkVEo-iuc5PaxOOLDOs8Q8mPNvdXqbL2Vfw&usqp=CAU",
+    "name": "Man's Shoes",
+    "price": 3200,
+    "category": 3,
+    "rating": 5,
+    "sizes": [22, 23, 24, 25, 28]
+  },
+  {
+    "id": 13,
+    "imageUrl": "https://elitesport.ge/assets/cache/images/1400/images/catalog/SAM162-02/SAM162-02-1.jpeg",
+    "name": "Shoes Men's Sneakers ADIDAS",
+    "price": 6200,
+    "category": 1,
+    "rating": 5,
+    "sizes": [41, 42, 43, 44, 45]
+  },
+  {
+    "id": 14,
+    "imageUrl": "https://sneakerfortress.com/wp-content/uploads/2023/05/The-Best-Sneakers-For-Men-In-2023.png",
+    "name": "Nike Air Jordan 1 Mid",
+    "price": 6200,
+    "category": 1,
+    "rating": 5,
+    "sizes": [41, 42, 43, 44, 45]
+  },
+  {
+    "id": 15,
+    "imageUrl": "https://sneakerfortress.com/cdn-cgi/image/width=864,height=1080,fit=crop,quality=80,format=auto,onerror=redirect,metadata=none/wp-content/uploads/2023/05/The-Best-Sneakers-For-Men-In-2023.webp",
+    "name": " Nike Air Force 1 ’07 Sneaker",
+    "price": 6200,
+    "category": 1,
+    "rating": 5,
+    "sizes": [41, 42, 43, 44, 45]
+  }
+]

@@ -1,0 +1,104 @@
+@import "../../assets/shared/scss/helpers/mixins.scss";
+
+.card {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, .16);
+    background-color: #fff;
+
+
+    label {
+        color: #595959;
+    }
+}
+
+.image {
+    overflow: hidden;
+    height: 386px;
+    user-select: none;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, .1);
+
+    img {
+        transition: transform .5s ease;
+    }
+
+    &:hover img {
+        transform: scale(1.1);
+    }
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto;
+    padding: 10px 10px 20px;
+}
+
+.price {
+    font-size: 18px;
+    font-weight: 700;
+    color: #ed5421;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    @include breakpoint(lg) {
+        margin-bottom: 20px;
+        align-items: flex-end;
+    }
+}
+
+.size {
+    flex: 0 0 200px;
+}
+
+.name {
+    margin-top: 10px;
+
+    @include breakpoint(lg) {
+        margin: 0;
+    }
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    margin-top: auto;
+
+    @include breakpoint(sm) {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
+
+.quantity {
+    margin-bottom: 20px;
+
+    @include breakpoint(lg) {
+        margin-bottom: 0;
+    }
+}
+
+.btn {
+    width: 36px;
+    height: 36px;
+    border-radius: 4px;
+    font-size: 18px;
+    background-color: #f2f2f2;
+    transition: background-color .3s ease;
+
+    &:hover {
+        background-color: darken(#f2f2f2, 10%);
+    }
+
+    &:first-child {
+        margin-right: 10px;
+    }
+
+    &:last-child {
+        margin-left: 10px;
+    }
+}

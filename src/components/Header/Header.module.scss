@@ -1,0 +1,114 @@
+.header {
+    padding: 20px 0;
+    background-color: #fff;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, .1);
+
+    &__inner {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    &__logo {
+        width: 120px;
+
+        a {
+            display: block;
+        }
+    }
+
+    .basket {
+        &__btn {
+            min-width: 95px;
+            min-height: 40px;
+            display: inline-flex;
+            align-items: center;
+            color: #fff;
+            background-color: #6100fc;
+            padding: 0 15px;
+            border-radius: 20px;
+            cursor: pointer;
+            transition: background-color .3s linear;
+
+            &:hover {
+                background-color: darken(#6100fc, 10%);
+            }
+        }
+
+        &__price {
+
+            padding-right: 15px;
+        }
+
+        &__logo {
+            border-left: 1px solid #fff;
+            padding-left: 15px;
+            padding-right: 5px;
+
+            svg {
+                transform: translateY(3px);
+            }
+        }
+    }
+
+    .personal {
+        display: grid;
+        grid-template-columns: 110px 80px;
+        background-color: #6100fc;
+        border-radius: 30px;
+        overflow: hidden;
+
+        &__btn {
+            background-color: #6100fc;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: #fff;
+            cursor: pointer;
+            font-size: 12px;
+
+            &__logo {
+
+                width: 24px;
+                display: block;
+                height: 24px;
+                position: relative;
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: cover;
+                background-image: url(data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2224%22%20height%3D%2222%22%20fill%3D%22none%22%3E%3Cpath%20fill%3D%22%23fff%22%20d%3D%22M12.25%2010.1c2.476%200%204.6-2.124%204.6-4.864C16.85%202.531%2014.714.5%2012.25.5c-2.464%200-4.612%202.078-4.6%204.76%200%202.716%202.124%204.84%204.6%204.84ZM12.25%2012.3c-5.82%200-9.192%203.497-10.569%206.515-.687%201.507.612%202.885%202.268%202.885H20.55c1.657%200%202.955-1.379%202.268-2.886-1.378-3.018-4.75-6.514-10.569-6.514Z%22%2F%3E%3C%2Fsvg%3E);
+
+            }
+        }
+    }
+
+    .join {
+        display: flex;
+        flex-direction: column;
+
+
+
+        &__btn {
+            background-color: #6100fc;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 3px;
+            color: #fff;
+            cursor: pointer;
+            font-size: 9px;
+
+
+        }
+    }
+}
